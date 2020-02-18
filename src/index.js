@@ -18,6 +18,7 @@ ReactDOM.render(<Provider store={store}>
       <BaseLayout>
         <Switch>
           <Route exact path ="/" component = {App} />
+          <Route path = "/home" component = {App}/>
         </Switch>
       </BaseLayout>
     </BrowserRouter></Provider>, document.getElementById('root'));
