@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Contactus from './components/Contactus'
 import * as serviceWorker from './serviceWorker';
 import {BrowserRouter, Route, Switch } from 'react-router-dom'
 import BaseLayout from './components/BaseLayout';
@@ -19,6 +20,7 @@ ReactDOM.render(<Provider store={store}>
         <Switch>
           <Route exact path ="/" component = {App} />
           <Route path = "/home" component = {App}/>
+          <Route path = "/contactus" component = {Contactus}/>
         </Switch>
       </BaseLayout>
     </BrowserRouter></Provider>, document.getElementById('root'));
