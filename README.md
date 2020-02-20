@@ -10,7 +10,7 @@ ___
 
 ## Site Preview:
 
-![aligebra](https://raw.githubusercontent.com/nargiza-web/portfoliom/master/dist/img/familyHealth.png)
+![aligebra](https://github.com/nargiza-web/algebra-client/blob/master/public/aligebrascript.png)
 
 ## This site was built by:
 * [Nargiza Ozek](https://naku.dev)
@@ -19,5 +19,7 @@ ___
 This project is built using MERN stack, Mongo, Express, React and Node
 
 ## Featured programs:
-HTML,CSS,Bootstrap,JavaScript
+HTML,CSS,Bootstrap,JavaScript, Redux, Redux Hooks
+
+#### This is client side pages, server side can be found at algebraServer repo. The project is an ongoing project. 
 
